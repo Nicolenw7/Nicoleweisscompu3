@@ -6,7 +6,8 @@
 #container {
 	height: 550px;
 	background: #AD0624;
-	display: flex
+	display: flex;
+
 	
 }
 .titulo1 { 
@@ -81,7 +82,7 @@ nav ul li {
 	display: flex;
 	align-items:center;
 	justify-content:center;
-	border-radius: 20px;
+	border-radius:20px;
 	backface-visibility: hidden;
 	transition:1s;
 	
