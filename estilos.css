@@ -34,12 +34,11 @@
 nav ul{
 	list-style: none;
 }
-nav ul li {
-	display:inline;
-	
-}
+nav ul{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;}
 .botonera a{
-	margin: 5px;
 	padding: 20px 100px 10px ;
 	font-size:25px;
 	text-decoration: none;
