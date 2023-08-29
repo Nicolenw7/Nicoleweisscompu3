@@ -2,7 +2,8 @@
 /* CSS Document */
 * { margin:0px;
 	padding: 0px }
-
+/* fijate de probar de aplicar el display: flex en los divs que contienen el texto, porque de esta manera poniendo uno por uno en el titlo, haces mas linea de texto y a su vez "funcionalmente no te esta aplicando el justify-self: center;*/
+/*Proba el div del texto del header poner solo display: flex; + flex-direction: column; */
 /*Header*/
 
 #container {
