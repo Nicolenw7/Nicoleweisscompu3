@@ -281,21 +281,18 @@ h2{
 
 h3{
 	margin-top:10px;
-	width:900px;
 	text-align: justify;
 	font-size: 20px;
 	font-style: italic
 	}
 
 p{
-	width:600px;
 	text-align: justify;
 	font-size: 15px;
 	}
 .idioma {
 	color:#AD0624;
 	margin-top:100px;
-	margin-left: 60px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 }
 .contacto{
