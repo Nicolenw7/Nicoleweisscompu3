@@ -6,41 +6,44 @@
 /*Proba el div del texto del header poner solo display: flex; + flex-direction: column; */
 /*Header*/
 
-#container {
+.container {
 	background: #AD0624;
 	display: flex;
 	height: 600px
 }
+.div{
+	display: flex;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
 .foto{
 	margin-left:150px;
 	margin-top:50px;
-	border-radius: 50%;
+
 }
-.titulo1 { 
-	display: flex;
+.container h1 { 
 	justify-self: center;
 	margin-left: 200px;
 	margin-top: 180px;
 	color: white;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	font-size: 80px}
 
-.subtitulo1 {
+.container h2{
 	margin-top: 50px;
 	display: flex;
 	justify-self:center;
 	margin-left:200px;
 	color: white;
-	font-family: Arial, "sans-serif";}
+	font-size: 25px;
+	font-style: italic;
+}
 
-.bloque1 {
-	display: flex;
-	justify-self: center;
+.container p {margin-top: 10px;
+	flex-direction: column;
 	width:600px;
 	margin-left: 200px;
 	color: white;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	text-align: justify;
+	font-size: 15px;
 	}
 
 /*botonera*/
@@ -263,68 +266,56 @@ nav ul{
 	justify-content: space-between;
 	margin-top: 85px;
 }
-.estudios{
+.estudios {
 	color:#AD0624;
-	font-size:35px;
 	margin-top:100px;
 	margin-left: 60px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 }
-
-
-.bloque2{
+h2{
 	margin-top:30px;
-	display: flex;
 	justify-self: start;
-	width:600px;
-	margin-left: 60px;
-	color:#AD0624;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	text-align: justify;
-	font-size: 25px;
+	font-size: 35px;
 	}
 
-.bloque21{
-	display: flex;
-	width:600px;
-	margin-left: 60px;
-	color:#AD0624;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+h3{
+	margin-top:10px;
+	width:900px;
 	text-align: justify;
-	font-size: 15px
+	font-size: 20px;
+	font-style: italic
 	}
 
-.bloque3{
-	margin-top:30px;
-	display: flex;
-	justify-self: start;
+p{
 	width:600px;
-	margin-left: 60px;
-	color:#AD0624;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	text-align: justify;
-	font-size: 25px;
+	font-size: 15px;
 	}
-.bloque31{
-	display: flex;
-	width:600px;
-	margin-left: 60px;
+.idioma {
 	color:#AD0624;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	text-align: justify;
-	font-size: 15px
-	}
-/*estudios*/
-
-.idioma{
-	color:#AD0624;
-	font-size:35px;
 	margin-top:100px;
-	margin-left: 60px;	
+	margin-left: 60px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 }
-.linea{
-	border-top: 3px solid;
-	color:#AD0624;
-	margin-left: 20px;
-	margin-right: 1500px;
-	
+.contacto{
+	background: #AD0624;
+	height: 200px;
+	color:white;
+	margin-top:100px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";}
+
+.contacto h2{
+	margin-left:60px;
+	font-size: 35px;
+}
+.contacto h3{
+	margin-left:60px;
+	font-size: 15px;
+}
+
+.contacto p{
+	margin-left:60px;
+	font-size: 15px;
+	margin-top: 50px
 }
