@@ -319,7 +319,8 @@ nav ul{
 }
 .contacto{
 	background: #AD0624;
-	height: 200px;
+	width: 100%;
+	height: 100%;
 	color:white;
 	margin-top:100px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";}
