@@ -370,14 +370,21 @@ nav ul{
 }	
 @keyframes slide{
 	0%{margin-left: 0;}
-	20%{margin-left: 0;}
+	10%{margin-left: 0;}
 	
 	25%{margin-left:-100%;}
-	45%{margin-left:-100%;}
+	35%{margin-left:-100%;}
 	
 	50%{margin-left:-200%;}
 	60%{margin-left:-200%;}
 	
 	75%{margin-left:-300%;}
 	100%{margin-left:-300%;}
+}
+
+@media (max-width: 991) {
+	body { padding: 30px}
+	.slide{ width: 100%}
+	.modelaje{width: 100%}
+	
 }
