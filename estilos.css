@@ -2,9 +2,7 @@
 /* CSS Document */
 * { margin:0px;
 	padding: 0px }
-/* fijate de probar de aplicar el display: flex en los divs que contienen el texto, porque de esta manera poniendo uno por uno en el titlo, haces mas linea de texto y a su vez "funcionalmente no te esta aplicando el justify-self: center;*/
-/*Proba el div del texto del header poner solo display: flex; + flex-direction: column; */
-/*Header*/
+
 
 body {
 	display: flex;
@@ -80,6 +78,10 @@ p{
 	}
 
 /*botonera*/
+#bot {
+	position: sticky;
+	top: 50px;
+}
 
 nav ul{
 	list-style: none;
@@ -89,7 +91,9 @@ nav ul{
 	flex-direction: row;
 	justify-content:space-around
 }
-
+.botonera{
+	position: sticky;
+}
 .botonera a{
 	padding: 20px 100px 10px ;
 	font-size:25px;
@@ -97,6 +101,8 @@ nav ul{
 	color:#AD0624;
 	border:2px solid;
 	border-radius: 20%;
+	
+	
 }
 
 .botonera a:hover{
@@ -336,10 +342,42 @@ nav ul{
 
 /* MODELAJE*/
  /*galeria*/
+
 .modelaje h2{
-	margin-top: 20%;
+	margin-top: 5%;
 	color: #AD0624;
 }
 
+.slide{
+	width: 1280px;
+	height: auto;
+	margin-top: 2.7%;
+	overflow: hidden
+}
 
+.slide ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: slide 10s infinite alternate ease-in-out;	
+}
+
+
+.slide li{
+	width: 100%;
+	list-style: none;
 	
+}	
+@keyframes slide{
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+	
+	25%{margin-left:-100%;}
+	45%{margin-left:-100%;}
+	
+	50%{margin-left:-200%;}
+	60%{margin-left:-200%;}
+	
+	75%{margin-left:-300%;}
+	100%{margin-left:-300%;}
+}
