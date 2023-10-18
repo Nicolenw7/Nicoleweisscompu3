@@ -10,7 +10,8 @@ body {
 	flex-direction: column;
 	align-items: flex-start;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	color:#AD0624;}
+	color:#AD0624;
+	background: #FDEEEE}
 
 /*CV*/
 h1{
@@ -18,23 +19,29 @@ h1{
 }
 
 h2{
-	margin-top:0%;
+	margin-top:100px;
 	justify-self: start;
 	text-align: justify;
 	font-size: 30px;
 	margin-left: 2.7%;
+	display: flex;
+	
 }
 
 h3{
-	margin-left: 2.7%;
-	width:20%;
+	margin-left:15%;
 	text-align: justify;
 	font-size: 20px;
-	font-style: italic;}
+	font-style: italic;
+	width: 100%;
+}
+
 
 p{
 	text-align: justify;
 	font-size: 15px;
+	width:  100%;
+	margin-left: 15%;
 	}
 
 .container {
@@ -344,16 +351,11 @@ nav ul{
 /* MODELAJE*/
  /*galeria*/
 
-.modelaje h2{
-	margin-top: 5%;
-	color: #AD0624;
-}
-
 .slide{
 	width: 1280px;
 	height: auto;
 	margin-top: 2.7%;
-	overflow: hidden
+	overflow: hiddenm
 }
 
 .slide ul{
@@ -387,5 +389,23 @@ nav ul{
 	body { padding: 30px}
 	.slide{ width: 100%}
 	.modelaje{width: 100%}
+	
+}
+/*portfolio*/
+
+ a{
+	display: block;
+	widht: 10%;
+	background: #AD0624;
+	margin-left: 10%;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color:#FFFFFF;
+	padding: 15px 50px;
+	border-radius: 25%;
+	text-decoration: none;
+}
+/*audio*/
+
+.audio{
 	
 }
