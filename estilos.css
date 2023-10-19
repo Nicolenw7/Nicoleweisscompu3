@@ -16,7 +16,9 @@ body {
 header {
 	width: 100%
 }
-/*CV*/
+main{
+	width: 100%
+}
 h1{
 	
 }
@@ -32,7 +34,7 @@ h2{
 }
 
 h3{
-	margin-left:15%;
+	margin-left:60px;
 	text-align: justify;
 	font-size: 20px;
 	font-style: italic;
@@ -59,7 +61,7 @@ p{
 .foto img{
 	justify-self: center;
 	margin-left:150px;
-	margin-top:50px;
+	margin-top:30%;
 	border-radius: 10%;
 
 }
@@ -127,10 +129,10 @@ nav ul{
 
 /*trabajo*/
 
-.trabajo{
+.disenos{
 	color:#AD0624;
 	font-size:35px;
-	margin-top:100px;
+	margin-top:6%;
 	margin-left: 40px;	
 }
 .linea{
@@ -150,11 +152,12 @@ nav ul{
 /*tarjeta 1*/
 
 .card{
-	margin-top: 100px;
+	margin-top: 2.7%;
 	padding: 30px;
 	position: relative;
-	width: 300px;
-	height: 400px;
+	width:16%;
+	height: 300px;
+	
 }
 .card .face{
 	position: absolute;
@@ -163,9 +166,9 @@ nav ul{
 	display: flex;
 	align-items:center;
 	justify-content:center;
-	border-radius:20px;
 	backface-visibility: hidden;
 	transition:1s;
+	border-radius:5%;
 	
 }
 .card .front{
@@ -184,6 +187,7 @@ nav ul{
 	width:100%;
 	height: 100%;
 	objet-fit: cover;
+	border-radius:5%;
 }
 .card .back{
 	transform:perspective(600px) rotateY(180deg);
@@ -197,19 +201,20 @@ nav ul{
 }
 .card .back h3{
 	font-size:30px;
-	line-height: 100px;
-	margin-right: 70px;
+	justify: center;
+	
 }
 
 /*tarjeta 2*/
 
 .card2{
-	margin-top: 100px;
+	margin-top: 2.7%;
 	margin-left: 80px;
 	padding: 30px;
 	position: relative;
-	width: 400px;
-	height: 400px;
+	width:16%;
+	height: 300px;
+	
 }
 .card2 .face{
 	position: absolute;
@@ -218,7 +223,7 @@ nav ul{
 	display: flex;
 	align-items:center;
 	justify-content:center;
-	border-radius: 20px;
+	border-radius:5%;
 	backface-visibility: hidden;
 	transition:1s;
 	
@@ -232,6 +237,7 @@ nav ul{
 	width:100%;
 	height: 100%;
 	objet-fit: cover;
+	border-radius:5%;
 }
 .card2 .back{
 	transform:perspective(600px) rotateY(180deg);
@@ -257,13 +263,13 @@ nav ul{
 /*tarjeta 3*/
 
 .card3{
-	margin-top: 90px;
+	margin-top: 2.7%;
 	margin-left: 80px;
-	padding: 40px;
+	padding: 30px;
 	position: relative;
-	width: 400px;
-	height: 400px;
-	border-radius:20px;
+	width:16%;
+	height: 300px;
+	
 	
 }
 .card3 .face{
@@ -275,7 +281,7 @@ nav ul{
 	justify-content:center;
 	backface-visibility: hidden;
 	transition:1s;
-	
+
 }
 .card3 .front{
 	border-radius: 20px;
@@ -287,6 +293,7 @@ nav ul{
 	width:100%;
 	height: 100%;
 	objet-fit: cover;
+	border-radius:5%;
 }
 .card3 .back{
 	margin-bottom: 1000px;
@@ -357,7 +364,7 @@ nav ul{
 }
 
 
-/* MODELAJE*/
+/* MODELAJE*/ 
  /*galeria*/
 
 .slide{
@@ -380,6 +387,7 @@ nav ul{
 	list-style: none;
 	
 }	
+
 @keyframes slide{
 	0%{margin-left: 0;}
 	10%{margin-left: 0;}
@@ -400,22 +408,103 @@ nav ul{
 	.modelaje{width: 100%}
 	
 }
+
+/* <!-- hay mas imagenes colocadas pero no las muestra-->
+
 /*portfolio*/
 
-/* .portfolio a{*/
-	display: block;
-	widht: 10%;
+ a{
+	widht: 100%;
 	background: #AD0624;
-	margin-left: 10%;
+	margin-left: 40px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	color:#FFFFFF;
 	padding: 15px 50px;
 	border-radius: 25%;
 	text-decoration: none;
-	margin-top: 50%
+	
+} 
+/*<!-- no me deja ponerle un estilo a este boton, si le coloco una class una me lo reconoce
+ me modifica la botonera-->
+
+
+/*formulario*/
+
+.formulario{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-left: 60px;
+	margin-top: 2.7%;	
 }
-/*audio*/
+#controles{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	height: 80%;
+	background: #AD0624;
+	padding: 50px;
+	border-radius: 20%;
+	
+}
+
+.nombre {
+	color: #AD0624;
+	widht: 40%;
+	background:#FDEEEE;
+	border-color:white;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+.apellido {
+	color: #AD0624;
+	widht: 40%;
+	background:#FDEEEE;
+	border-color:white;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	padding: 5px;
+	margin-bottom: 20px;
+}
+.agencia {
+	color: #AD0624;
+	widht: 40%;
+	background:#FDEEEE;
+	border-color:white;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	padding: 5px;
+	margin-bottom: 20px;
+}
+.propuesta{
+	color: #AD0624;
+	widht: 40%;
+	background:#FDEEEE;
+	border-color:white;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color:#AD0624; 
+	padding: 40px;
+	margin-bottom: 20px;
+}
+#controles p{
+	color: #FFFFFF;
+	margin-left: 0;
+}
+/*------ se que con una clase se resuelve para que no haya tanta info sin sentido, pero me maree con cion id=controles y class=formularios para que me tome.-----*/
+ 
+.lista{
+	padding: 30px;
+	margin-top: -60px;
+	color: #FDEEEE;
+	margin-left: 150px;
+	gap: 20px;
+	
+	
+}
+/*audio*/ /*seguir diseñando*/
 
 .audio{
+	display: flex;
+	padding-top: 10%;
 	
 }
