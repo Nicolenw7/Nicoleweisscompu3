@@ -13,6 +13,9 @@ body {
 	color:#AD0624;
 	background: #FDEEEE}
 
+header {
+	width: 100%
+}
 /*CV*/
 h1{
 	
@@ -53,9 +56,11 @@ p{
 	display: flex;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 }
-.foto{
+.foto img{
+	justify-self: center;
 	margin-left:150px;
 	margin-top:50px;
+	border-radius: 10%;
 
 }
 .container h1 { 
@@ -98,21 +103,25 @@ nav ul{
 	flex-direction: row;
 	justify-content:space-around
 }
-.botonera{
+.botonera  ul li a{
 	position: sticky;
+	z-index: auto;
 }
-.botonera a{
-	padding: 20px 100px 10px ;
+.botonera  ul li a{
+	display: flex;
+	margin-top: -10px;
+	padding: 20px 80px 10px ;
 	font-size:25px;
 	text-decoration: none;
-	color:#AD0624;
+	color:#FFFFFF;
+	background: #AD0624;
 	border:2px solid;
 	border-radius: 20%;
-	
+	text-emphasis-color: #FFFFFF;
 	
 }
 
-.botonera a:hover{
+.botonera ul li a:hover{
 	color: white;
 	background: #AD0624}
 
@@ -393,7 +402,7 @@ nav ul{
 }
 /*portfolio*/
 
- a{
+/* .portfolio a{*/
 	display: block;
 	widht: 10%;
 	background: #AD0624;
@@ -403,6 +412,7 @@ nav ul{
 	padding: 15px 50px;
 	border-radius: 25%;
 	text-decoration: none;
+	margin-top: 50%
 }
 /*audio*/
 
