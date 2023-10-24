@@ -317,20 +317,23 @@ nav ul{
 .galeria{
 	width: 100%;
 	min-height: 100vh;
-	display: flex;
 	align-items: center;
-	justify-content: center;
-	padding: 20px 5%;
+	
+	
 }
 .galeria .estilo{
 	margin-top: 15%;
-	display: grid;
-	grid-template-columns: repeat;
-	grid-gap:30px;
+	display: flex;
+	gap:30px;
+	justify-content: center;
+
 }
 .estilo img{
+	width: 100%;	
+}
+.galeria .estilo a{
+	background: no-repeat;
 	width: 100%;
-	
 }
 
 /*estudios e idioma*/
