@@ -46,7 +46,9 @@ p{
 	font-size: 15px;
 	max-width: 40%;
 	}
+/*index*/
 
+/*header*/
 .container {
 	background: #AD0624;
 	display: flex;
@@ -121,7 +123,7 @@ nav ul{
 	color: white;
 	background: #AD0624}
 
-/*trabajo*/
+/*main*/
 
 .disenos{
 	color:#AD0624;
@@ -194,7 +196,6 @@ nav ul{
 	
 }
 .card .back h3{
-	font-size:30px;
 	justify: center;
 	
 }
@@ -243,9 +244,7 @@ nav ul{
 	box-shadow:0 5px 10px grey;	
 }
 .card2 .back h3{
-	font-size:30px;
-	line-height: 100px;
-	margin-right: 300px;
+	justify: center;
 }
 .card2:hover .front{
 	transform:perspective(600px) rotateY(180deg)
@@ -300,9 +299,7 @@ nav ul{
 	box-shadow:0 5px 10px grey;
 }
 .card3 .back h3{
-	font-size:30px;
-	line-height: 100px;
-	margin-right: 130px;
+	justify: center;
 }
 .card3 .back p{
 	margin-left:20px;
@@ -313,6 +310,27 @@ nav ul{
 }
 .card3:hover .back{
 	transform:perspective(600px) rotateY(360deg)
+}
+
+
+/*galeria*/
+.galeria{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 5%;
+}
+.galeria .estilo{
+	margin-top: 15%;
+	display: grid;
+	grid-template-columns: repeat;
+	grid-gap:30px;
+}
+.estilo img{
+	width: 100%;
+	
 }
 
 /*estudios e idioma*/
@@ -418,8 +436,6 @@ nav ul{
 	text-decoration: none;
 	
 } 
-/*<!-- no me deja ponerle un estilo a este boton, si le coloco una class una me lo reconoce
- me modifica la botonera-->
 
 
 /*formulario*/
@@ -476,7 +492,6 @@ nav ul{
 	background:#FDEEEE;
 	border-color:white;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	color:#AD0624; 
 	padding: 40px;
 	margin-bottom: 20px;
 }
