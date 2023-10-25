@@ -335,6 +335,10 @@ nav ul{
 .estilo img{
 	width: 100%;	
 }
+
+/** El width 100% en ".galeria .estilo a" te deforma las imágenes. Si lo que querés es centrarlas, 
+deberías usar un justify-content en la clase del div que contiene las imágenes **/
+
 .galeria .estilo a{
 	background: no-repeat;
 	width: 100%;
@@ -436,11 +440,16 @@ nav ul{
 	background: #AD0624}
  /*galeria*/
 
+/** Si queres que el slide te ocupe toda la página, sacá el width 1280, no es necesario que le pongas uno. Sino dejalo así**/
+
 .slide{
 	width: 1280px;
 	height: auto;
 	margin-top: 2.7%;
 }
+
+/** El width: 400% te hace un scroll horizontal ENORME, sacalo y agrega "overflow: hidden". Te va a arreglar el problema,
+hace que lo que está por fuera de la página no se vea. **/
 
 .slide ul{
 	display: flex;
@@ -490,6 +499,7 @@ nav ul{
 
 /*formulario*/
 
+/** Acá el width 100% te está haciendo un scroll horizontal **/
 .formulario{
 	display: flex;
 	flex-direction: column;
