@@ -43,7 +43,7 @@ h3{
 	text-align: justify;
 	font-size: 20px;
 	font-style: italic;
-	width: 100%;
+	max-width:  100%;
 }
 
 
@@ -97,6 +97,7 @@ p{
 	top: 50px;
 	z-index: 10;
 	background-color:rgba(253,238,238,1.00);
+
 }
 
 nav ul{
@@ -400,10 +401,8 @@ nav ul{
 
 }
 .titulo2{
-	font-style: bold;
 	font-size: 80px;
 	margin-top: 70px;
-	justify-content: center;
 }
 
 nav ul{
@@ -416,8 +415,6 @@ nav ul{
 }
 .botonera2  ul li a{
 	margin-top: 20px;
-	position: sticky;
-	z-index: auto;
 }
 .botonera2  ul li a{
 	display: flex;
@@ -430,6 +427,7 @@ nav ul{
 	border:2px solid;
 	border-radius: 50px;
 	text-emphasis-color: #FFFFFF;
+
 	
 }
 
@@ -507,12 +505,10 @@ nav ul{
 	background: #AD0624;
 	padding: 50px;
 	border-radius: 20px;
-	
 }
 
 .nombre {
 	color: #AD0624;
-	widht: 40%;
 	background:#FDEEEE;
 	border-color:white;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
@@ -538,56 +534,97 @@ nav ul{
 	padding: 5px;
 	margin-bottom: 20px;
 }
-.estilo-controles{
-	color: #AD0624;
-	widht: 40%;
-	background:#FDEEEE;
-	border-color:white;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	padding: 40px;
-	margin-bottom: 20px;
-}
+
 .propuesta{
 	color: #AD0624;
 	widht: 40%;
 	background:#FDEEEE;
 	border-color:white;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	padding: 40px;
+	padding: 30px 5px;
 	margin-bottom: 20px;
 }
 #controles p{
 	color: #FFFFFF;
 	margin-left: 0;
-	width: 100%
+	max-width: 100%;
+	max-height: 50%
 }
 
  
 .lista{ 
-	padding-top: 0px;
+	padding-top: 10px;
 	margin-top: -60px;
 	color: #FDEEEE;
 	margin-left: 50px;
-	
+	margin-bottom: 20px;	
+}
+.enviar p{
+	width: 80px;
+	background: #AD0624;
+	margin-left: 0px;
+	margin-top: 20px;
+	color:#FFFFFF;
+	padding: 10px ;
+	border-radius: 25px;
+	text-align: center;
 	
 }
 /*audio*/ 
 
-.audio{
-	display: flex;
-	padding-top: 10%;
+audio{
+	margin-top:  10%;
 	margin-left: 25px;
-	
+	color: #FDEEEE;	
+}
+
+audio::-webkit-media-controls-play-buttom{
+	color:#AD0624;
 	
 }
-@media (max-width: 991) {
-	body { padding: 30px}
-	header{ flex-direction: column
+audio::-webkit-media-controls-current-time-display{
+	color:#AD0624;	
+}
+audio::-webkit-media-controls-time-remaining-display{
+	color:#AD0624;
+}
+audio::-webkit-media-controls-volume-slider::-webkit-media-controls-current-time-display{
+	background-color:#AD0624;	
+}
+audio::-webkit-media-controls-timeline{
+	color:#AD0624;
+}
+audio::-webkit-media-controls-timeline{
+	color:#AD0624;
+}
+@media (max-width:600px) {
+	header{ 
+		padding-left: 0px;}
+
+	.eleganza {
+		padding-bottom: 20px;
+		margin-top: -30px;}
+	
+	.titulo2{
+		font-size: 70px;
+		margin-top: 50px;
+	}
+	
+	.botonera2 ul li a {
+		font-size: 12px;
+		padding: 5px 20px 5px ;
+		justify-content: space-around;
+		margin-left: 15px;
+		margin-right: 15px
+		}
+	h2{
+		margin-top: 60px;
+	}
+	#controles{ 
+		width: 60%;
 		
 	}
-	nav
-	.slide{ width: 100%}
-	.modelaje{width: 100%}
+	
 	
 	
 }
