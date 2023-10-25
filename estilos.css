@@ -472,12 +472,6 @@ nav ul{
 	100%{margin-left:-300%;}
 }
 
-@media (max-width: 991) {
-	body { padding: 30px}
-	.slide{ width: 100%}
-	.modelaje{width: 100%}
-	
-}
 
 /* <!-- hay mas imagenes colocadas pero no las muestra-->
 
@@ -583,6 +577,16 @@ nav ul{
 	display: flex;
 	padding-top: 10%;
 	margin-left: 25px;
+	
+	
+}
+@media (max-width: 991) {
+	body { padding: 30px}
+	header{ flex-direction: column
+		
+	}
+	.slide{ width: 100%}
+	.modelaje{width: 100%}
 	
 	
 }
