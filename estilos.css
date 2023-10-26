@@ -336,12 +336,13 @@ nav ul{
 	width: 100%;	
 }
 
-/** El width 100% en ".galeria .estilo a" te deforma las imágenes. Si lo que querés es centrarlas, 
-deberías usar un justify-content en la clase del div que contiene las imágenes **/
 
 .galeria .estilo a{
 	background: no-repeat;
-	width: 100%;
+	
+}
+.estilo div{
+	justify-content:center;
 }
 
 /*estudios e idioma*/
@@ -438,23 +439,19 @@ nav ul{
 .botonera2 ul li a:hover{
 	color: white;
 	background: #AD0624}
+
  /*galeria*/
 
-/** Si queres que el slide te ocupe toda la página, sacá el width 1280, no es necesario que le pongas uno. Sino dejalo así**/
-
 .slide{
-	width: 1280px;
 	height: auto;
 	margin-top: 2.7%;
 }
 
-/** El width: 400% te hace un scroll horizontal ENORME, sacalo y agrega "overflow: hidden". Te va a arreglar el problema,
-hace que lo que está por fuera de la página no se vea. **/
 
 .slide ul{
 	display: flex;
 	padding: 0;
-	width: 400%;
+	overflow:hidden;
 	animation: slide 10s infinite alternate ease-in-out;	
 }
 
@@ -480,8 +477,6 @@ hace que lo que está por fuera de la página no se vea. **/
 }
 
 
-/* <!-- hay mas imagenes colocadas pero no las muestra-->
-
 /*portfolio*/
 
  a{
@@ -499,11 +494,9 @@ hace que lo que está por fuera de la página no se vea. **/
 
 /*formulario*/
 
-/** Acá el width 100% te está haciendo un scroll horizontal **/
 .formulario{
 	display: flex;
 	flex-direction: column;
-	width: 100%;
 	margin-left: 60px;
 	margin-top: 2.7%;	
 }
@@ -625,7 +618,7 @@ audio::-webkit-media-controls-timeline{
 		padding: 5px 20px 5px ;
 		justify-content: space-around;
 		margin-left: 15px;
-		margin-right: 15px
+
 		}
 	h2{
 		margin-top: 60px;
