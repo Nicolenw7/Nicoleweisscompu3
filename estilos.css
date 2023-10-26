@@ -606,13 +606,17 @@ audio::-webkit-media-controls-timeline{
 
 	.eleganza {
 		padding-bottom: 20px;
-		margin-top: -30px;}
+		margin-top: -30px;
+		padding-left: 0px;
+	}
 	
 	.titulo2{
 		font-size: 70px;
 		margin-top: 50px;
 	}
-	
+	.botonera{
+		padding-left: 0px;
+	}
 	.botonera2 ul li a {
 		font-size: 12px;
 		padding: 5px 20px 5px ;
@@ -626,6 +630,9 @@ audio::-webkit-media-controls-timeline{
 	#controles{ 
 		width: 60%;
 		
+	}
+	a{
+		margin-left: 1%
 	}
 	
 	
