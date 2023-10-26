@@ -560,7 +560,7 @@ nav ul{
 	margin-top: -60px;
 	color: #FDEEEE;
 	margin-left: 50px;
-	margin-bottom: 20px;	
+	margin-bottom: 15px;	
 }
 .enviar p{
 	width: 80px;
@@ -614,14 +614,13 @@ audio::-webkit-media-controls-timeline{
 		font-size: 70px;
 		margin-top: 50px;
 	}
-	.botonera{
-		padding-left: 0px;
-	}
+	
 	.botonera2 ul li a {
+		display: grid;
 		font-size: 12px;
 		padding: 5px 20px 5px ;
-		justify-content: space-around;
 		margin-left: 15px;
+
 
 		}
 	h2{
@@ -629,12 +628,22 @@ audio::-webkit-media-controls-timeline{
 	}
 	#controles{ 
 		width: 60%;
+
+	}
+	.lista {
+		font-size: 12px
 		
 	}
+
 	a{
 		margin-left: 1%
 	}
 	
+	.enviar p{
+		font-size: 12px;
+		padding: 5px 0px 5px ;
+		margin-left: 15px;
+	}
 	
 	
 }
